@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  utline: 2px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background: #1f2937;
+    padding: 16px 150px 0px 150px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calcoin-pic {
+    height: 50px;
+    width: 50px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 54px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb
+}
+
+.part-1 {
+    background-color: #1f2937;
+    display: flex;
+    padding: 100px 150px 120px 150px;
+    justify-content: space-between;
+}
+
+.top-left {
+
+}
+
+.money-pic {
+    height: 300px;
+    width: auto
+}
